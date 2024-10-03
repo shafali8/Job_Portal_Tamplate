@@ -587,8 +587,61 @@ transform-origin: top;
   
 }
 /* View Jobs section end */
-
 /* View_job_page end */
+
+/* view comapny page start */
+
+.view-comapany .details{
+background-color: var(--white);
+box-shadow: var(--box-shadow);
+border: var(--border);
+border-radius: .5rem;
+padding: 2rem;
+}
+.view-comapany .details .info{
+    max-width: 50rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.view-comapany .details .info img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.view-comapany .details .info h3{
+   padding: 1.5rem 0;
+   font-size: 2rem;
+   columns: var(--black); 
+}
+.view-comapany .details .info p{
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+.view-comapany .details .description{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.view-comapany .details .description p{
+    padding: 0.5rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 1.8;
+}
+.view-comapany .details ul li{
+    margin-left: 3rem;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding-top: 1rem;
+}
+
+
+/* view comapny page end */
 
 
 

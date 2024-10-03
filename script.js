@@ -12,3 +12,15 @@ document.querySelectorAll('input[type="number"]').forEach(inputNumber => {
         if(inputNumber.value.length > inputNumber.maxLength) inputNumber.value = inputNumber.value.slice(0, inputNumber.maxLength)
     }
 })
+
+// dropdown 
+
+let dropdown_items = document.querySelectorAll(".job-filter form .dropdown-container .dropdown .lists .items");
+
+dropdown_items.forEach(items => {
+    items.onclick = () => {
+        item_parent = items.parentElement.parentElement;
+        let output = item_parent.querySelector('.output');
+        output.value = items.innerText
+    }
+})

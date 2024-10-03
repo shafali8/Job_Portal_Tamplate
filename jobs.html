@@ -35,6 +35,575 @@
   </section>
  </header>
 
+ <!-- Filter section start -->
+  <section class="job-filter">
+    <h2 class="heading">filter jobs</h2>
+
+    <form action="" method="post">
+      <div class="flex">
+       <div class="box">
+        <p>job title <span>*</span></p>
+        <input 
+        type="text"
+        name="title"
+        placeholder="keyword, category or company"
+        required
+        maxlength="20" class="input"
+        >
+       </div>
+        
+       <div class="box">
+        <p>job location</p>
+        <input 
+        type="text"
+        name="location"
+        placeholder="city, state and country"
+        required
+        maxlength="20" class="input"
+        >
+       </div>
+      </div>
+
+      <div class="dropdown-container">
+        <div class="dropdown">
+          <input 
+          type="text"
+          readonly
+          placeholder="estimated salary"
+          name="date"
+          maxlength="20"
+          class="output">
+<div class="lists">
+           <p class="items">30k- 40k</p>
+           <p class="items">40k - 50k</p>
+           <p class="items">50k - 1 lakh</p>
+           <p class="items">1 lakh - 5 lakh</p>
+           <p class="items">5 lakh - 10 lakh</p>
+           <p class="items">10 lakh - 20 lakh</p>
+           <p class="items">20 lakh - 50 lakh</p>
+           <p class="items">20 lakh or more</p>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          <input 
+          type="text"
+          readonly
+          placeholder="date posted"
+          name="date"
+          maxlength="20"
+          class="output">
+
+          <div class="lists">
+           <p class="items">day shift</p>
+           <p class="items">night shift</p>
+           <p class="items">flexiable shift</p>
+           <p class="items">fixed</p>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <input 
+          type="text"
+          readonly
+          placeholder="job type"
+          name="date"
+          maxlength="20"
+          class="output">
+
+          <div class="lists">
+           <p class="items">full-time</p>
+           <p class="items">part-time</p>
+           <p class="items">intership</p>
+           <p class="items">contract</p>
+           <p class="items">fresher</p>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <input 
+          type="text"
+          readonly
+          placeholder="date posted"
+          name="date"
+          maxlength="20"
+          class="output">
+
+          <div class="lists">
+           <p class="items">today</p>
+           <p class="items">3 days ago</p>
+           <p class="items">7 days ago</p>
+           <p class="items">10 days ago</p>
+           <p class="items">15 days ago</p>
+           <p class="items">30 days ago</p>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          <input 
+          type="text"
+          readonly
+          placeholder="work shift"
+          name="date"
+          maxlength="20"
+          class="output">
+
+          <div class="lists">
+           <p class="items">day shift</p>
+           <p class="items">night shift</p>
+           <p class="items">flexiable shift</p>
+           <p class="items">fixed</p>
+          </div>
+        </div>
+
+      </div>
+    
+    </form>
+
+    
+  </section>
+ <!-- Filter section end -->
+
+ <!-- All Jobs section start -->
+ <section class="jobs-container">
+  <h1 class="heading">all jobs</h1>
+
+  <div class="box-container-jobs">
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-4.png" alt="company-logo">
+        <div>
+          <h3>IT infosys co.</h3>
+          <p>2 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">senior web developer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>pune, maharastra</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-5.png" alt="company-logo">
+        <div>
+          <h3>TCS Telcom</h3>
+          <p>10 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">support engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>banglore, karnataka</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-6.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-7.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-8.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-9.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-4.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-7.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-2.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-1.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-3.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+    <div class="box-jobs">
+      <div class="company">
+        <img src="asserts/company-8.png" alt="company-logo">
+        <div>
+          <h3>Infotech Technology pvt. ltd.</h3>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <h3 class="job-title">software engineer</h3>
+      <p class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>indore, M.P</span>
+      </p>
+      <div class="tags">
+        <p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <span>50k-60k</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>full time</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i>
+          <span>day shift</span>
+        </p>
+      </div>
+  
+      
+      <div class="flex-btn">
+        <a href="view_job.html" class="btn">view details</a>
+        <button type="submit" name="save" class="fa-regular fa-heart"></button>
+      </div>
+    </div>
+  </div>
+   
+    <div 
+    style="text-align: center; margin-top: 8rem;"
+    >
+      <a href="jobs.html" class="btn">view all</a>
+    </div>
+</section>
+ <!-- All Jobs section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  <!-- Footer section start -->
   <footer class="footer">
